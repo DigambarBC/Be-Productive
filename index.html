@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Be Productive</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      width: 300px;
+      height: 400px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <div class="power-switch">
+    <input id="PowerBtn" type="checkbox" />
+    <div class="button">
+      <svg class="power-off">
+        <use xlink:href="#line" class="line" />
+        <use xlink:href="#circle" class="circle" />
+      </svg>
+      <svg class="power-on">
+        <use xlink:href="#line" class="line" />
+        <use xlink:href="#circle" class="circle" />
+      </svg>
+    </div>
+  </div>
+
+
+  <!-- SVG -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="line">
+      <line x1="75" y1="34" x2="75" y2="58" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="circle">
+      <circle cx="75" cy="80" r="35" />
+    </symbol>
+  </svg>
+
+  <p class="line-1 anim-typewriter">Be Productive !</p>
+
+
+  <!-- partial -->
+  <script src="main.js"></script>
+</body>
+
+</html>
