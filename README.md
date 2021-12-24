@@ -26,7 +26,7 @@ Install project with git
 
 1] Download the project folder  
 2] Open your browser which uses chromium engine  
-3] Open Menu and click on Extentions  
+3] Open menu and click on extentions  
 4] Turn on developer option  
 5] Click on load unpacked and select extention folder  
 6] Now click on Be Productive extention and turn on  
