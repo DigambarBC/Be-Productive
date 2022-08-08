@@ -1,5 +1,5 @@
 
-# Be Productive (Browser Extention)
+# Be Productive (Browser Extension)
 
 By using this extension you can hide distracting content like YouTube home page videos to increase Productivity. When you open youtube to find a tutorial or any other important video you first launch on the youtube home page. The YouTube home page shows you, addictive videos based on your previous youtube activity then you click on any one of the videos in that. So you distract from your main goal. Now to avoid this problem you can use this extension to hide home page content. 
 
@@ -20,7 +20,7 @@ Install project with git
   git clone https://github.com/DigambarBC/Be-Productive.git
   cd Be-Productive
 ```
-## Steps to run extention
+## Steps to run extension
 
 1] Download the project folder  
 2] Open your browser which uses chromium engine  
