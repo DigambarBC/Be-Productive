@@ -6,12 +6,12 @@ By using this extension you can hide distracting content like YouTube home page 
 ## Screenshots
 1] When Extention is ON (it hide youtube home videos)
 
-![App Screenshot](https://raw.githubusercontent.com/DigambarBC/image-hosting/main/be_productive_on.png)
+![App Screenshot](https://drive.google.com/uc?export=download&id=1BV55UO__5eW5Ze35Hb8JRsBSb1WHc6B9)
 
 
 2] When Extention is OFF
 
-![App Screenshot](https://raw.githubusercontent.com/DigambarBC/image-hosting/main/be_productive_off.png)
+![App Screenshot](https://drive.google.com/uc?export=download&id=1gHqlihd4ScmN--O-YyuKp_hsdVSMTGsQ)
 ## Installation
 
 Install project with git
