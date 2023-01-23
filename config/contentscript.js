@@ -6,14 +6,14 @@ chrome.storage.sync.get(['State'], function (items) {
     if (items['State'] === "true") {
 
         // get id in html page of youtube
-        let target = document.getElementById('primary')
+        let target = document.getElementById('contents')
 
         // set attribute hidden
         target.hidden = true;
     }
     else {
         // if state is false then show youtube sugession 
-        let target = document.getElementById('primary')
+        let target = document.getElementById('contents')
         target.hidden = false;
     }
 
@@ -40,7 +40,7 @@ chrome.runtime.onMessage.addListener(
 // select id from html dom and set attribute hidden true to hide contain
 function start() {
     console.log("start");
-    let target = document.getElementById('primary')
+    let target = document.getElementById('contents')
     target.hidden = true;
 
 }
@@ -49,7 +49,7 @@ function start() {
 function stop() {
     console.log("stop");
 
-    let target = document.getElementById('primary')
+    let target = document.getElementById('contents')
     target.hidden = false;
 
 }
